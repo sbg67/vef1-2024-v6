@@ -2,14 +2,9 @@
 
 /** Letur og stærðir **/
 
-/*** Grunnstærð er 16px ***/
-html {
-  font-size: var(--font-size-base);
-}
-
 /*** Leturgerðir sem við sækjum úr fonts/ möppu ***/
 @font-face {
-  font-family: 'Matemasie-Regular';
+  font-family: Matemasie-Regular;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -68,12 +63,10 @@ a {
   border: var(--border-regular);
   border-radius: var(--border-radius-regular);
   border-width: var(--border-width);
-
   color: var(--color-black);
   background-color: var(--color-background-secondary);
   font-size: 1rem;
   text-decoration: none;
-
   transition: background-color var(--transition-time-short) var(--transition-timing-function),
     color var(--transition-time-short) var(--transition-timing-function), border-color var(--transition-time-short) var(--transition-timing-function);
 }

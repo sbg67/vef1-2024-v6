@@ -9,7 +9,6 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: var(--spacing);
-
   list-style: none;
 }
 
@@ -18,7 +17,7 @@ nav ul li {
   text-align: left;
 }
 
-@media (min-width: 800px) {
+@media (width >= 800px) {
   nav ul {
     display: block;
   }
